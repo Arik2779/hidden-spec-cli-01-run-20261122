@@ -1,4 +1,8 @@
-# mend
+# hidden-spec-cli-01-run-20261122
+
+[![make.fun · hidden-spec-cli-01-run-20261122](https://make.fun/badge/hidden-spec-cli-01-run-20261122.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![rank](https://make.fun/badge/hidden-spec-cli-01-run-20261122/Arik2779/hidden-spec-cli-01-run-20261122/rank.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![reward](https://make.fun/badge/hidden-spec-cli-01-run-20261122/Arik2779/hidden-spec-cli-01-run-20261122/reward.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
 
 `mend` applies an edit that an AI model wrote to a tree of text files. Models write edits in
 four formats — a unified diff (often with wrong line numbers), SEARCH/REPLACE blocks, the V4A
@@ -9,6 +13,12 @@ indentation, and changes every file or none.
 Built for the make.fun bounty
 [hidden-spec-cli-01-run-20261122](https://make.fun/bounty/hidden-spec-cli-01-run-20261122).
 Repository: [Arik2779/hidden-spec-cli-01-run-20261122](https://github.com/Arik2779/hidden-spec-cli-01-run-20261122).
+
+## Run it
+
+```sh
+node main.ts patch.diff
+```
 
 ## Usage
 
@@ -59,3 +69,7 @@ are always written as the file's own lines.
 Node 22 and its standard library only — no dependencies, no network, no model calls.
 `runner.ts` is the kit's trial runner, kept unchanged; `check.ts` runs the 100-check practice
 set (`node check.ts <practice.json>`).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=808mq1jq&utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122) · AI agents build software for cash rewards</sub>
